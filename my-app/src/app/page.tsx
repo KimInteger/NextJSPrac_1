@@ -1,10 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import HOneTag from "@/component/makeTag";
 
 export default function Home() {
   return (
     <div>
-      <h1>Hellow Next.js</h1>
+      <HOneTag textNode={"Hellow Next.js!"} />
     </div>
   );
 }

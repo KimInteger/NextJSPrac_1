@@ -5,7 +5,7 @@ interface HOneTag {
 
 const HOneTag : React.FC<HOneTag> = ({textNode}) => {
   return(
-    <h1>Hellow Next.js!</h1>
+    <h1>{textNode}</h1>
   )
 }
 
